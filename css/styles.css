@@ -351,7 +351,6 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 24px;
-    margin-top: 8px;
 }
 
 .social-list-item {
@@ -447,12 +446,24 @@ body {
     color: var(--secondary-color-theme-light);
 }
 
-.footer-container {
-    display: flex;
+.social-description-theme-light {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color-theme-light);
+    margin-bottom: 16px;
 }
 
-.footer-right-side {
-    margin-left: 269px;
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-left-side {
+    margin-right: 120px;
 
 }
 
