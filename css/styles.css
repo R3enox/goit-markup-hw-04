@@ -116,7 +116,7 @@ body {
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -382,7 +382,7 @@ body {
 }
 
 .customers-list-item {
-    width: calc((100%-120px)/6);
+    width: calc((100% - 120px)/6);
     height: 88px;
 }
 
@@ -395,7 +395,7 @@ body {
     padding: 16px 32px;
     background-color: #fff;
     border: 1px solid #8E8F99;
-    color: var(--customers-link-color)
+    color: var(--customers-link-color);
     border-radius: 4px;
 }
 
@@ -455,6 +455,21 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.social-list-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+background-color: #31d0aa;
 }
 
 .footer-container {
